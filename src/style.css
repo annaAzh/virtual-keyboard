@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+h1,
+body,
+h3,
+h2,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 2rem;
+  line-height: 150%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+}
+
+.textarea {
+  width: 90%;
+  min-height: 300px;
+  border: 3px solid rgb(182, 78, 180);
+  resize: none;
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.subtitle {
+  font-size: 3rem;
+  color: rgb(163, 179, 131);
+}
+
+/*# sourceMappingURL=style.css.map */

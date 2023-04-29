@@ -4,7 +4,7 @@ import Subtitle from './Subtitle.js';
 
 const container = new Container();
 const textarea = new Textarea();
-const subtitle = new Subtitle('Made for MACos *** change language: option + Cmd');
+const subtitle = new Subtitle('Made for MACos   ***   change language: option + Cmd');
 
 textarea.render();
 subtitle.render();
