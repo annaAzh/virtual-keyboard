@@ -63,6 +63,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   overflow-x: hidden;
+  background-color: #282C33;
 }
 
 .container {
@@ -71,22 +72,24 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px;
+  padding: 70px;
 }
 
 .textarea {
-  width: 90%;
-  min-height: 300px;
-  border: 3px solid rgb(182, 78, 180);
+  width: 972px;
+  min-height: 200px;
+  border: 3px solid #C778DD;
   resize: none;
   outline: none;
   border-radius: 10px;
   margin-bottom: 50px;
+  background-color: #ABB2BF;
 }
 
 .subtitle {
-  font-size: 3rem;
-  color: rgb(163, 179, 131);
+  font-size: 2.5rem;
+  color: #C778DD;
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
