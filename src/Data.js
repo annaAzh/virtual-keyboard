@@ -58,10 +58,8 @@ export default [
     { code: 'Comma', shiftChange: [',', '<', 'б', 'Б', ''] },
     { code: 'Period', shiftChange: ['.', '>', 'ю', 'Ю', ''] },
     { code: 'Slash', shiftChange: ['/', '?', '/', '?', ''] },
-    
     { code: 'ArrowUp', shiftChange: ['&#9652', '&#9652', '&#9652', '&#9652', '&#9652'] },
     { code: 'ShiftRight', shiftChange: ['', '', '', '', 'shift'] },
-
   ],
   [
     { code: 'FN', shiftChange: ['', '', '', '', 'fn'] },

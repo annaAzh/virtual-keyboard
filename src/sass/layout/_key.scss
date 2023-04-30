@@ -1,113 +1,20 @@
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-}
-
-ul[class],
-ol[class] {
-  padding: 0;
-}
-
-h1,
-body,
-h3,
-h2,
-h4,
-h5,
-h6,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
-ul[class] {
-  list-style: none;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-}
-
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-html {
-  font-size: 10px;
-}
-
-body {
-  font-size: 2rem;
-  line-height: 150%;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  overflow-x: hidden;
-  background-color: #282C33;
-}
-
-.container {
-  max-width: 1400px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 70px;
-}
-
-.textarea {
-  width: 972px;
-  min-height: 200px;
-  border: 3px solid #C778DD;
-  resize: none;
-  outline: none;
-  border-radius: 10px;
-  margin-bottom: 50px;
-  background-color: #ABB2BF;
-}
-
-.subtitle {
-  font-size: 2.5rem;
-  color: #C778DD;
-  margin-bottom: 50px;
-}
-
 .keyboard__inner {
   padding: 10px;
   border-radius: 10px;
-  background-color: #ABB2BF;
+  background-color: $color-extra;
 }
 
 .keyboard__row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-bottom: 10px;
-  width: 100%;
-  height: 60px;
-}
-.keyboard__row:last-child {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ margin-bottom: 10px;
+ width: 100%;
+ height: 60px;
+
+  &:last-child {
   margin-bottom: 0;
+  }
 }
 
 .keyboard__button {
@@ -120,16 +27,16 @@ body {
   box-shadow: 5px 5px 10px #474343, -5px -5px 10px rgb(130, 125, 125);
   font-size: 20px;
   margin-left: 5px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   border-radius: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.keyboard__button:active {
-  background-color: #C778DD;
-  color: #1c1c1c;
-  box-shadow: 1px 1px 2px rgb(130, 125, 125), -1px -1px 2px #C778DD;
+  &:active {
+    background-color: $color-accent;
+    color: #1c1c1c;
+    box-shadow: 1px 1px 2px rgb(130, 125, 125), -1px -1px 2px $color-accent;
+  }
 }
 
 .keyboard__button.button-code-Space {
@@ -185,5 +92,3 @@ body {
 .button-code-ArrowRight {
   margin-right: 105px;
 }
-
-/*# sourceMappingURL=style.css.map */

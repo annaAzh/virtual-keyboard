@@ -1,12 +1,12 @@
 export default class {
-  constructor({code, shiftChange}) {
+  constructor({ code, shiftChange }) {
     this.code = code;
     this.shiftChange = shiftChange;
     this.element = null;
   }
 
   render() {
-    let className = `button-code-${this.code}`;
+    const className = `button-code-${this.code}`;
     let innerHTML;
     if (this.shiftChange[4] !== '') {
       innerHTML = this.shiftChange[4];
