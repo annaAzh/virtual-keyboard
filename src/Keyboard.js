@@ -1,8 +1,8 @@
-import Key from './Key.js';
-import Data from './Data.js';
-import OS from './OS.js';
-import Listener from './Listener.js';
-import Storage from './Storage.js';
+import Key from './Key';
+import Data from './Data';
+import OS from './OS';
+import Listener from './Listener';
+import Storage from './Storage';
 
 export default class {
   constructor(textarea, element) {

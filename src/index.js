@@ -1,7 +1,8 @@
-import Container from './Container.js';
-import Textarea from './Textarea.js';
-import Subtitle from './Subtitle.js';
-import Keyboard from './Keyboard.js';
+import Container from './Container';
+import Textarea from './Textarea';
+import Subtitle from './Subtitle';
+import Keyboard from './Keyboard';
+import './style.css';
 
 const text = 'Made for MAC  ---   change language: option + control';
 const container = new Container();

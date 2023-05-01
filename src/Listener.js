@@ -1,4 +1,4 @@
-import OS from './OS.js';
+import OS from './OS';
 
 export default class {
   constructor(keyboard) {
