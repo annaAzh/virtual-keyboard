@@ -39,13 +39,20 @@
   }
 }
 
+.keyboard__button.keyboard__button-active {
+  background-color: $color-accent;
+  color: #1c1c1c;
+  box-shadow: 1px 1px 2px rgb(130, 125, 125), -1px -1px 2px $color-accent;
+  outline: none;
+}
+
 .keyboard__button.button-code-Space {
-  width: 350px;
+  width: 430px;
   border-radius: 10px;
   font-size: 1.5rem;
 }
 
-.keyboard__button.button-code-Delete {
+.keyboard__button.button-code-Backspace {
   width: 115px;
   border-radius: 10px;
   font-size: 1.5rem;

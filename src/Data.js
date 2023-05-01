@@ -13,7 +13,7 @@ export default [
     { code: 'Digit0', shiftChange: ['0', ')', '0', ')', ''] },
     { code: 'Minus', shiftChange: ['-', '_', '-', '_', ''] },
     { code: 'Equal', shiftChange: ['=', '+', '=', '+', ''] },
-    { code: 'Delete', shiftChange: ['', '', '', '', 'delete'] },
+    { code: 'Backspace', shiftChange: ['', '', '', '', 'delete'] },
   ],
   [
     { code: 'Tab', shiftChange: ['\t', '\t', '\t', '\t', 'tab'] },
@@ -62,7 +62,6 @@ export default [
     { code: 'ShiftRight', shiftChange: ['', '', '', '', 'shift'] },
   ],
   [
-    { code: 'FN', shiftChange: ['', '', '', '', 'fn'] },
     { code: 'ControlLeft', shiftChange: ['', '', '', '', 'control'] },
     { code: 'AltLeft', shiftChange: ['', '', '', '', 'option'] },
     { code: 'MetaLeft', shiftChange: ['', '', '', '', 'command'] },
